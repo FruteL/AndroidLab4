@@ -7,19 +7,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.lab4.Link;
-import com.example.lab4.Part2;
 import com.example.lab4.R;
-
-import java.util.ArrayList;
 
 public class List extends Fragment implements AdapterView.OnItemClickListener {
 
